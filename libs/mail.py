@@ -1,7 +1,7 @@
 from .config import *
 import requests
 import json
-
+ 
 
 def fetch_email(email_id, json_output=False):
     url = 'https://api.fullcontact.com/v3/person.enrich'
