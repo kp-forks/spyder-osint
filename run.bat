@@ -2,6 +2,7 @@
 title spyder 
     if exist requirements.txt (
 		echo installing wheel for faster installing
+        python spyder.py
 		pip install wheel
         echo Installing dependencies...
         pip install -r requirements.txt
@@ -14,7 +15,6 @@ title spyder
 )
 
 echo Starting the bot...
-python spyder.py
 
 echo failed
 pause
